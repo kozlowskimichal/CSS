@@ -27,3 +27,17 @@ div {
     
     color: green
 }
+
+/* Selektor bezpośredniego elemtu potomnego */
+
+li>a {
+    
+    color: yellow;
+}
+
+/* Selektor elementów potomnych */
+
+div a {
+    
+    color:blueviolet;
+}
