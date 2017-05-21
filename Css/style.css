@@ -41,3 +41,40 @@ div a {
     
     color:blueviolet;
 }
+
+/* Selektor bliskiego rodzeństa */
+h2 +h3 {
+    color:cadetblue
+}
+
+
+/* Selektor rodzeństwa */
+
+h4 ~ p {
+    color: chocolate;
+}
+
+/* Selektor rodzeństwa */
+
+ul > li:not(.last){
+    color:cyan
+}
+
+/*Selektor kolejnego elementu potomnego */
+
+ul> ol:nth-child(2n+1){
+    
+    color: deeppink;
+}
+
+An+B
+
+gdzie:
+A - dowolna liczba
+B - dowolna liczba
+n - licznik od 0
+
+even/odd
+
+even - parzyste
+odd - nieparzyste
