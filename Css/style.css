@@ -1,5 +1,13 @@
+/* Selektor znacznika */
 p{
     
  color: orange;
     
+}
+
+/* Selektor id */
+
+#paragraph {
+    
+    color: blue;
 }
