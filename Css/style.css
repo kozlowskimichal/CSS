@@ -11,3 +11,19 @@ p{
     
     color: blue;
 }
+
+/* Selektr klasy */
+
+.akapit{
+    
+    color: red;
+}
+
+/* Łączenie selektorów*/
+
+a,
+span,
+div {
+    
+    color: green
+}
